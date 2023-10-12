@@ -1,0 +1,11 @@
+[package]
+name = "chu-liu-edmonds"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+ndarray = "0.15"
+ordered-float = "4"
+
+[dev-dependencies]
+ndarray-rand = "0.14"
