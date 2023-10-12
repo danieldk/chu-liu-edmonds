@@ -2,6 +2,15 @@
 name = "chu-liu-edmonds"
 version = "0.1.0"
 edition = "2021"
+rust-version = "1.66"
+description = "MST decoding using Chu-Liu-Edmonds"
+documentation = "https://docs.rs/chu-liu-edmonds/"
+keywords = ["mst", "decoding", "minimum", "spanning", "tree"]
+homepage = "https://github.com/danieldk/chu-liu-edmonds"
+repository = "https://github.com/danieldk/chu-liu-edmonds"
+license = "MIT OR Apache-2.0"
+readme = "README.md"
+exclude = [".gitignore"]
 
 [dependencies]
 ndarray = "0.15"
